@@ -74,5 +74,7 @@ $ ./gen-img.sh
 
 service list（查看系统所有服务信息）
 
+注意：源码里添加的硬件服务，eclipse或者android studio编写测试app时，需要把源码编译生成的classes.jar包导入项目或者把app源码直接放入源码编译。源码编译完成会生成许多classes.jar。我们要导入的classes.jar路径为：out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar
+
 
 
